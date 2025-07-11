@@ -16,7 +16,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-mongoose.connect('mongodb+srv://arpitsaxena2703:walmart001@martdata.pr8fo.mongodb.net/?retryWrites=true&w=majority&appName=MartData', {
+mongoose.connect('mongodburl', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 }).then(async () => {
